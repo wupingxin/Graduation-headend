@@ -6,7 +6,7 @@ import welcome from '../components/welcome.vue'
 // import notice from '../components/notice.vue'
 import users from '../components/user/users.vue'
 // import jslb from '../components/user/jslb.vue'
-import qxlb from '../components/user/qxlb.vue'
+// import qxlb from '../components/user/qxlb.vue'
 import grxx from '../components/grzx/xgmm.vue'
 import glyxx from '../components/grzx/glyxx.vue'
 import newly from '../components/lygl/newly.vue'
@@ -59,7 +59,7 @@ const routes = [
       {path:'/bxtj',component:bxtj},
       {path:'/lgpj',component:lgpj},
       // {path:'/jslb',component:jslb},
-      {path:'/qxlb',component:qxlb},
+      // {path:'/qxlb',component:qxlb},
       {path:'/bxlb',component:bxlb}
     ]
   }
