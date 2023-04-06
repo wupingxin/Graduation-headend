@@ -44,7 +44,7 @@
             :data="datalist"
             stripe
             border
-            height="300px"
+            maxheight="350px"
             :default-sort="{prop: 'time',prop: 'health',prop: 'discipline',prop: 'dormitoryculture',prop: 'total', order: 'descending'}"
           >
             <el-table-column label="楼宇号" prop="lynumber" width="90px"></el-table-column>
@@ -266,6 +266,6 @@ export default {
 }
 #myChart {
   width: 950px;
-  height: 410px;
+  height: 412px;
 }
 </style>

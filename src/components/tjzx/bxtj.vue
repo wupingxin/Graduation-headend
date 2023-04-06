@@ -33,7 +33,7 @@
             stripe
             border
             maxheight="350px"
-            :default-sort="{prop: 'time',prop: 'health',prop: 'discipline',prop: 'dormitoryculture',prop: 'total', order: 'descending'}"
+            :default-sort="{prop: 'bxsh',prop: 'clgm',prop: 'lywh',prop: 'total', order: 'descending'}"
           >
             <el-table-column label="楼宇号" prop="lynumber" width="90px"></el-table-column>
             <el-table-column label="楼管姓名" prop="name" width="90px"></el-table-column>
