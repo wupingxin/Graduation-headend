@@ -252,7 +252,7 @@ export default {
         xueyuan: "",
         banji: "",
         sex: "",
-        pass: 123456,
+        // pass: 123456,
         lyid: "",
         sushe: ""
       },
