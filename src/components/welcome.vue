@@ -14,7 +14,7 @@
         </div>
       </div>
       <!-- 轮播图 -->
-      <el-carousel height="300px" type="card" :interval="2000">
+      <el-carousel height="300px" type="card" :interval="1500">
         <el-carousel-item>
           <img src="../assets/img/qs1.png" alt />
         </el-carousel-item>
@@ -91,7 +91,8 @@ export default {
   font-family: PingFangSC-Regular;
   font-size: 25px;
   color: #5991d1;
-  animation: myMove 10s linear infinite;
+  /* linear 匀速  infinite 指定动画应该播放无限次（永远） */
+  animation: myMove 10s linear infinite;   
 }
 /*文字无缝滚动*/
 @keyframes myMove {
